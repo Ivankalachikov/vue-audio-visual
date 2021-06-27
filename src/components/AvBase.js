@@ -170,7 +170,9 @@ const methods = {
 
 export default {
   props,
-  render: h => h('div'),
+  render() {
+    return h('div')
+  },
   mounted () {
     this.createHTMLElements()
 
