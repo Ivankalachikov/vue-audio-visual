@@ -1,3 +1,5 @@
+import { h } from 'vue'
+
 /**
  * Component props
  */
