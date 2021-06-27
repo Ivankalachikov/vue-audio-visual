@@ -1,3 +1,5 @@
+import { h } from 'vue'
+
 /**
  * Mixin component with base and common properties and functions.
  */
