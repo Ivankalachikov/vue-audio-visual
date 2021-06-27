@@ -151,7 +151,9 @@ const AvMedia = {
     }
   },
   props,
-  render: h => h('div'),
+  render() {
+    return h('div')
+  },
   mounted () {
     this.createCanvas()
   },
